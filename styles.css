@@ -1,0 +1,10 @@
+header{
+    background-color: blue;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header li{
+    color: white;
+}
