@@ -3,8 +3,23 @@ header{
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 3;
 }
 
 header li{
     color: white;
+}
+
+main{
+    padding: 0 15%;
+}
+
+h1, h2{
+    font-size: 3em;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.card{
+    max-width: 18rem;
 }
