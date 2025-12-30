@@ -4,263 +4,246 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-        <title>Portfolio</title>
+        <title>My Portfolio</title>
     </head>
-    <body>
-        <header>
+    <body class="bg-light bg-gradient">
+        <header class="ps-3">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#programming-languages">Programming</a></li>
                         <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
                         <li class="nav-item"><a class="nav-link" href="#frameworks">Frameworks</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#databases">Databases</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
         
-        <main>
-            <section id="about">
+        <main class="mx-auto w-75">
+            <section id="about" class="text-center mx-auto mb-5 p-3 w-50">
                 <h1>About me</h1>
-                <p></p>
+                <p class="fs-3"><strong class="fs-3">My name is Xavier, </strong>I'm a software engineer with experience in various programming languages and frameworks. </p>
             </section>
-            <section id="skills">
-                <h2>Skills</h2>
-                <div class="card-deck">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">Coding</h3>
-                            <p class="card-text">5 years of experience coding multiple applications on different platforms and frameworks</p>
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-1 text-center">
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top top-rounded" src="https://github.com/camiloespejo/ServerDuo/blob/FinalBranchXavi(Don't-Touch)/ClienteDuo/Images/DUOLogo.png?raw=true" alt="DUO logo">
+                                <h3 class=" card-title">Card Game</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">Web development</h3>
-                            <p class="card-text">2 years of experience constructing different applications with network connectivity, such as websites and APIs using architectures such as REST</p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body my-auto">
+                                <img class="card-img-top top-rounded" src="https://cdn-icons-png.flaticon.com/512/174/174836.png" alt="Card cap">
+                                <h3 class="card-title">Vehicle Maintenance API</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">Mobile application development</h3>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">Game development</h3>
-                            <p class="card-text">I'm an aspiring indie developer who makes videogames as a Hobby</p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top rounded" src="Global_icon.png" alt="Card cap">
+                                <h3 class="card-title">Corporate Website</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section id="programming-languages">
                 <h2>Programming languages</h2>
-                <div class="card-columns">
-                    <div class="card">
-                        <img class="card-img-top" src="https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-language-pack-logos-icons-1174953.png?f=webp&w=256" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">Java</h3>
-                            <p class="card-text">Object-Oriented langauge I've used for many years to develop all kinds of desktop and web applications, such as a REST API and many desktop applications using JavaFX framework to make the UI</p>
+                <div class="row row-cols-3 row-cols-md-3 g-2">
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-language-pack-logos-icons-1174953.png?f=webp&w=256" alt="Card cap">
+                                <h3 class="text-center card-title">Java</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://www.vikingsoftware.com/wp-content/uploads/2024/02/C.png" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">C#</h3>
-                            <p class="card-text">High level languages used for a big variety of applications, Game Development and desktop applications are the main ones I've used</p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://www.vikingsoftware.com/wp-content/uploads/2024/02/C.png" alt="Card cap">
+                                <h3 class="text-center card-title">C#</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHf8McRaUXvoH0V0CiFPS-XRG_ZOaKYt8NVw&s" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">JavaScript</h3>
-                            <p class="card-text">Scripting language I use for front-end development</p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHf8McRaUXvoH0V0CiFPS-XRG_ZOaKYt8NVw&s" alt="Card cap">
+                                <h3 class="text-center card-title">JavaScript</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://149860134.v2.pressablecdn.com/wp-content/uploads/pythoned.png" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">Python</h3>
-                            <p class="card-text">Object-Oriented language with many uses, I'm learning how to program AI with it</p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://149860134.v2.pressablecdn.com/wp-content/uploads/pythoned.png" alt="Card cap">
+                                <h3 class="text-center card-title">Python</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Godot_icon.svg/2048px-Godot_icon.svg.png" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">GDScript</h3>
-                            <p class="card-text">High-level language based on Python used for coding games on Godot Engine</p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" alt="Card cap">
+                                <h3 class="text-center card-title">C++</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">C++</h3>
-                            <p class="card-text">Mid-level language very liked for being well-performant yet capable of building powerful applications</p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png" alt="Card cap">
+                                <h3 class="text-center card-title">PHP</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">PHP</h3>
-                            <p class="card-text">Programming Language used to create Server-Side applications to handle requests made by Front-End</p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuN8c6BMQiKDUKbKs-CpPSFUdNvclDAJr85g&s" alt="Card cap">
+                                <h3 class="text-center card-title">MySQL</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://img.icons8.com/color/512/microsoft-sql-server.png" alt="Card cap">
+                                <h3 class="text-center card-title">Microsoft SQL Server</h>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://1000marcas.net/wp-content/uploads/2021/06/MongoDB-Logo.png" alt="Card cap">
+                                <h3 class="text-center card-title">MongoDB</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section id="languages">
                 <h2>Languages</h2>
-                <div class="card-columns">
-                    <div class="card">
-                        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">English</h3>
-                            <p class="card-text">TOEFL-C1 certified</p>
+                <div class="row row-cols-1 row-cols-md-2 g-2">
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" alt="Card cap">
+                            <div class="card-body">
+                                <h3 class="text-center card-title">English</h3>
+                                <p class="card-text">TOEFL-C1 certified</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/255px-Flag_of_France.svg.png" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">French</h3>
-                            <p class="card-text">DELF-B1 certified</p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/255px-Flag_of_France.svg.png" alt="Card cap">
+                            <div class="card-body">
+                                <h3 class="text-center card-title">Français</h3>
+                                <p class="card-text">DELF-B1 certified</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/800px-Flag_of_Mexico.svg.png" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">Spanish</h3>
-                            <p class="card-text">Native language</p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/800px-Flag_of_Mexico.svg.png" alt="Card cap">
+                            <div class="card-body">
+                                <h3 class="text-center card-title">Spanish</h3>
+                                <p class="card-text">Native language</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSucOKibeO7uM5HQR62oGBDhCrVPkQl4iXS6g&s" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">Japanese</h3>
-                            <p class="card-text">N4 level</p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSucOKibeO7uM5HQR62oGBDhCrVPkQl4iXS6g&s" alt="Card cap">
+                            <div class="card-body">
+                                <h3 class="text-center card-title">日本語</h3>
+                                <p class="card-text">N4 Level</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSrXp9fjhawpl2U_SwSIBS-uENVi3g0GZugw&s" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">German</h3>
-                            <p class="card-text">Basic communication</p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSrXp9fjhawpl2U_SwSIBS-uENVi3g0GZugw&s" alt="Card cap">
+                            <div class="card-body">
+                                <h3 class="text-center card-title">Deutsch</h3>
+                                <p class="card-text">A2 Level</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section id="frameworks">
                 <h2>Frameworks</h2>
-                <p>Over the years I've worked with the following frameworks: </p>
-                <div class="card-columns">
-                    <div class="card">
-                        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7W1QUkN16JMXEAytg1rP6Wo0pvtUrUNwcmQ&s" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">JavaFX</h3>
-                            <p class="card-text"></p>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7W1QUkN16JMXEAytg1rP6Wo0pvtUrUNwcmQ&s" alt="Card cap">
+                            <div class="card-body">
+                                <h3 class="text-center card-title">JavaFX</h3>
+                                <p class="card-text"></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://www.pragimtech.com/wp-content/uploads/2019/04/wcfimage.png" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">Windows Presentation Foundation (WPF)</h3>
-                            <p class="card-text"></p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <img class="card-img-top" src="https://www.pragimtech.com/wp-content/uploads/2019/04/wcfimage.png" alt="Card cap">
+                            <div class="card-body">
+                                <h3 class="text-center card-title">Windows Presentation Foundation (WPF)</h3>
+                                <p class="card-text"></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://miro.medium.com/v2/resize:fit:580/1*mC09uItKCOwFFzHwh4RMqg.jpeg" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">Windows Connection Foundation (WCF)</h3>
-                            <p class="card-text"></p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://miro.medium.com/v2/resize:fit:580/1*mC09uItKCOwFFzHwh4RMqg.jpeg" alt="Card cap">
+                                <h3 class="text-center card-title">Windows Connection Foundation (WCF)</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://logos-world.net/wp-content/uploads/2022/01/NET-Framework-Logo.png" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">.NET Framework</h3>
-                            <p class="card-text"></p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://logos-world.net/wp-content/uploads/2022/01/NET-Framework-Logo.png" alt="Card cap">
+                                <h3 class="text-center card-title">.NET Framework</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">Bootstrap</h3>
-                            <p class="card-text"></p>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" alt="Card cap">
+                                <h3 class="text-center card-title">Bootstrap</h3>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col">
+                        <div class="card mx-auto h-100">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT_6o35VvArbcAzOnRyHMX2DzYMq0nzprmYQ&s" alt="Card cap">
+                                <h3 class="text-center card-title">ASP.NET</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-language-pack-logos-icons-1174953.png?f=webp&w=256" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">Java Swing</h3>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Godot_icon.svg/2048px-Godot_icon.svg.png" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">Godot</h3>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://cdn.worldvectorlogo.com/logos/unity-69.svg" alt="Card cap">
-                        <div class="card-body">
-                            <h3 class="text-center card-title">Unity</h3>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="databases">
-                <h2>Databases</h2>
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuN8c6BMQiKDUKbKs-CpPSFUdNvclDAJr85g&s" alt="Card cap">
-                        <div class="card-body">
-                          <h5 class="text-center card-title">MySQL</h5>
-                          <p class="card-text">The Open-Source favorite of many developers in order to store structured data in a simple manner while also having flexibility because most languages allow for this database manager connection</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://img.icons8.com/color/512/microsoft-sql-server.png" alt="Card cap">
-                        <div class="card-body">
-                            <h5 class="text-center card-title">Microsoft SQL Server</h5>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://1000marcas.net/wp-content/uploads/2021/06/MongoDB-Logo.png" alt="Card cap">
-                        <div class="card-body">
-                            <h5 class="text-center card-title">MongoDB</h5>
-                            <p class="card-text">I also have experience with Documental NoSQL databases such as MongoDB in order to manage more unstructured data and also their cloud storage usage with AWS services hosting and replication proves useful to keep data secure and available</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="projects">
-                <h2>Projects</h2>
-                <div id="card-game">
-
-                </div>
-                <div id="rest-api">
-
-                </div>
-                <div id="website">
-
-                </div>
-                <div id="spger">
-
                 </div>
             </section>
         </main>
