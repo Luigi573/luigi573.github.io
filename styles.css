@@ -16,6 +16,10 @@ header {
     z-index: 1000;
 }
 
+#skills{
+    padding: 10vh 0;
+}
+
 .nav-link {
     color: #e2e8f0;
     margin: 0 10px;
@@ -37,11 +41,23 @@ h1, h2{
     padding: 1em 0;
 }
 
+h3{
+    font-size: 2em;
+    text-align: center;
+    margin: 5vh 0;
+}
+
 .skills-list {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+}
+
+.skills-list img{
+    width: 20px;
+    height: 14px;
+    vertical-align: middle;
 }
 
 .skills-list li {
@@ -57,10 +73,6 @@ h1, h2{
 
 .second-list li{
     background: #2563eb;
-}
-
-.third-list li{
-    background: #16a34a;
 }
 
 .skills-list li:hover{
@@ -89,5 +101,9 @@ h1, h2{
 
 .hero{
     height: 100vh;
-    background-image: url("images/hero_background.gif");
+}
+
+.hero-content{
+    position: relative;
+    z-index: 1;
 }
