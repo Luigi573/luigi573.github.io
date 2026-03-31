@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
 body{
     background: #0f172a;
     color: #e2e8f0;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -16,9 +18,6 @@ header {
     z-index: 1000;
 }
 
-#skills{
-    padding: 10vh 0;
-}
 
 .nav-link {
     color: #e2e8f0;
@@ -36,15 +35,24 @@ header li{
 }
 
 h1, h2{
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     padding: 1em 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h3{
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
-    margin: 5vh 0;
+    margin: 5vh  0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about-me{
+    background-color: #182442; 
+    border-radius: 20px;       
+    padding: 2rem;             
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
 .skills-list {
@@ -80,23 +88,14 @@ h3{
     box-shadow: 0 10px 15px rgba(255,255,255,0.15);
 }
 
-.card {
-    max-width: 18rem;
-    background: #1e293b;
-    color: #e2e8f0;
-    border: none;
-    border-radius: 20px;
-    padding: 1rem;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.card img {
+.project-thumbnail img{
     border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+.project-thumbnail:hover img{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
 .hero{

@@ -6,10 +6,13 @@
         
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="animated_bg.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
         <title>My Portfolio</title>
@@ -28,8 +31,8 @@
                 </div>
             </nav>
         </header>
-        <main class="mx-auto w-100">
-            <section class="hero text-center text-white d-flex align-items-center justify-content-center">
+        <main>
+            <section class="hero text-center text-white d-flex align-items-center justify-content-center w-100">
                 <div class="background">
                     <span></span>
                     <span></span>
@@ -57,12 +60,13 @@
                 </div>
             </section>
             <section id="skills" class="mx-auto w-75">
+                <h2>About me</h2>
                 <div class="row">
-                    <div class="col-md">
-                        <h3>About me</h3>
-                        <img src="images/pfp.png" class="img-fluid d-block mx-auto">
+                    <div id="about-me" class="col-md">
+                        <img src="images/pfp.png" class="img-fluid d-block mx-auto mb-lg-4">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat vitae libero non volutpat. Sed molestie lectus eu lectus eleifend vestibulum. 
-                            Suspendisse id urna ut neque mattis auctor at a mi. Pellentesque suscipit augue eu purus varius posuere. Nullam sollicitudin nibh in libero fringilla aliquet. Proin convallis metus eget magna lobortis, ac lobortis nunc efficitur.</p>
+                            Suspendisse id urna ut neque mattis auctor at a mi. Pellentesque suscipit augue eu purus varius posuere. Nullam sollicitudin nibh in libero fringilla aliquet. Proin convallis metus eget magna lobortis, ac lobortis nunc efficitur.
+                        </p>
                     </div>
                     <div class="col-md">
                         <h3>Technologies</h3>
@@ -94,18 +98,39 @@
                     </div>
                 </div>
             </section>
-            <section id="projects" class="mx-auto w-75">
+            <section id="projects" class="mx-auto w-75 py-lg-5">
                 <h2>Projects</h2>
-                <div class="row">
-                    <div class="col-8 project-thumbnail">
-                        <img class="card-img-top top-rounded" src="images/DUOLogo.png" alt="DUO logo">
+                <div class="row g-lg-5 mb-xxl-5">
+                    <div class="col-md-7 col-12 project-thumbnail">
+                        <a href="https://github.com/camiloespejo/ServerDuo/tree/FinalBranchXavi(Don't-Touch)" target="_blank"><img class="card-img-top top-rounded project-thumbnail" src="images/duo_screenshot.png" alt="Game screenshot"></a>
                     </div>
-                    <div class="col-4">
-                        <h3 class=" card-title">Card Game</h3>
-
+                    <div class="col-md-5 col-12">
+                        <h3 class=" card-title mb-xxl-5">DUO game</h3>
+                        <p>A multiplayer desktop card game built with .NET Framework using WPF and WCF.</p>
+                        <p>Supports up to 4 players over LAN with real-time game synchronization.</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="https://github.com/camiloespejo/ServerDuo/tree/FinalBranchXavi%28Don't-Touch%29" class="btn btn-primary btn-sm mt-2">
+                                Learn more
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <!--Whatever projects I'm gonna put there-->
+                <div class="row g-lg-5 mb-lg-5">
+                    <div class="col-md-5 col-12">
+                        <h3 class=" card-title">Student ID Website</h3>
+                        <p>A web application built in <strong>ASP.NET with Razor</strong> to manage student data and allow students to consult their information via a QR code on their physical ID card.</p>
+                        <p>Admins can update student records and generate ID cards efficiently.</p>
+                        <p>Supports role-based authentication for Admins and Teachers, with a <strong>MySQL</strong> backend.</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="https://github.com/Luigi573/CredentialWebsite" class="btn btn-primary btn-sm mt-2" target="_blank">
+                                Learn more
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-12 project-thumbnail">
+                        <a href="https://github.com/Luigi573/CredentialWebsite" target="_blank"><img class="card-img-top top-rounded project-thumbnail" src="images/credential_screenshot.png" alt="Game screenshot"></a>
+                    </div>
+                </div>
             </section>
         </main>
     </body>
